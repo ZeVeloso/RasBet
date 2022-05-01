@@ -1,0 +1,80 @@
+.betHistoryBox{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    width: 1000px;
+
+    align-content: center;
+    justify-content: space-between;
+   
+}
+
+.betHistoryWrapper{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(49, 48, 48);
+    justify-content: center;
+    display: flex;
+
+}
+
+.betHistoryLeft{
+    flex: 3;
+
+
+    
+
+}
+
+.betHistoryMiddle{
+    flex: 3;
+    
+
+    
+}
+
+.betHistoryRight{
+    flex: 3;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+.betHistoryOdd{
+    width: 30%;
+    justify-self: center;
+    display: flex;
+
+}
+
+.betHistoryAmount{
+  
+    width: 80%;
+}
+
+.betHistoryLogo{
+    font-size: 16px;
+    font-weight: 350;
+    color:rgb(245, 241, 237);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.betHistoryRed{
+    font-size: 18px;
+    font-weight: 350;
+    color:rgb(253, 0, 0);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.betHistoryGreen{
+    font-size: 18px;
+    font-weight: 350;
+    color:rgb(72, 255, 0);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}

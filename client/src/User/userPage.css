@@ -1,0 +1,68 @@
+.userContainer{
+    width: 100%;
+    height: calc(100vh - 73px);
+    background-color:#3d3c3c;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.userWrapper{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2e2e;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.userTop{
+    flex:4;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+}
+
+.userName{
+    align-self: center;
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+.userTopWrapper{
+    flex-direction: row;
+    display: flex;
+    padding: 10px;
+    background-color: #3d3c3c;
+    justify-content: space-between;
+}
+.userBot{
+    flex:2;
+    flex-direction: column;
+    display: flex;
+}
+.userBalance{
+    padding: 20px;
+    color: gray;
+    font-size: 25px;
+    font-weight: 500;
+}
+.userButton{
+    color: white;
+    height: 50px;
+    width: 200px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 5px;
+}

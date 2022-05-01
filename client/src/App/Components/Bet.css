@@ -1,0 +1,87 @@
+.betBox{
+    padding: 20px;
+    align-items: center;
+}
+
+.betWrapper{
+    padding: 20px;
+    background-color: rgb(49, 48, 48);
+    justify-content: center;
+    display: flex;
+
+}
+.betWrapper2{
+    background-color: rgb(36, 35, 35);
+    justify-content: center;
+    display: flex;
+
+}
+.betWrapper3{
+    padding-left: 20px;
+    justify-content: center;
+    display: flex;
+
+}
+.betLeft{
+    flex: 0.8;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+.betMiddle{
+    flex: 3;
+    
+}
+
+.betRight{
+    flex: 1.1;
+    
+}
+button.MuiToggleButton-root {
+    border: none;
+    color: white;
+    
+}
+
+button.MuiToggleButton-root.Mui-selected {
+background-color: #c7620f !important;
+border-color: #000 !important;
+
+}
+
+.betButton{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 30%;
+    align-self: center;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(39, 38, 38);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.betInput{
+    width: 30%;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 3px;
+    color: white;
+    background-color: rgb(39, 38, 38);
+}
+
+.betText{
+    font-size: 15px;
+    font-weight: 500;
+    color:rgb(245, 241, 237);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+

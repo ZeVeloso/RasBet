@@ -1,0 +1,57 @@
+.left{
+    flex: 1.7;
+    height: calc(100vh - 73px);
+    background-color:#353434;
+}
+
+.leftWrapper{
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.leftCampWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+}
+
+.partidaInput{
+    width: 30%;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding: 3px;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    align-self: center;
+}
+
+
+.partidaButton{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 150px;
+    align-self: center;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(39, 38, 38);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.textLogo{
+    font-size: 20px;
+    font-weight: 800;
+    color:rgb(245, 241, 237);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}

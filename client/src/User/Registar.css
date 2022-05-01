@@ -1,0 +1,129 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color:#3d3c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginLeft{
+    height: 1%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginRight{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color:rgb(245, 241, 237);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.loginLabel{
+    font-size: 30px;
+    font-weight: 600;
+    color:rgb(245, 241, 237);
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.loginBox{
+    height: 300px;
+    padding: 50px;
+    background-color: rgb(43, 41, 41);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginInput{
+    width: 70%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+
+.loginButton{
+    color: white;
+    height: 50px;
+    width: 40%;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginRegisterButton{
+    color: white;
+    height: 50px;
+    width: 40%;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+}
+
+.loginOptBox{
+    padding: 20px;
+    background-color: rgb(43, 41, 41);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.registerTop,.registerBot{
+    display: flex;
+    flex:1;
+    flex-direction:row ;
+    justify-content: space-between;
+    display: flex;
+}
+
+.registerCheckBox{
+    align-self: center;
+    color: white;
+}
+
+.registerTickBox{
+    display: flex;
+    flex:1;
+    flex-direction:row ;
+    padding-left:20px;
+    align-self: center;
+}
